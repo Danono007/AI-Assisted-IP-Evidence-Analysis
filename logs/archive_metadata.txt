@@ -1,0 +1,8 @@
+  File: originals/OneDrive_1_11-12-2026.zip
+  Size: 5633561   	Blocks: 11008      IO Block: 4096   regular file
+Device: 8,1	Inode: 792945      Links: 1
+Access: (0764/-rwxrw-r--)  Uid: ( 1000/    kali)   Gid: ( 1000/    kali)
+Access: 2026-11-17 13:44:40.005049367 -0500
+Modify: 2026-11-17 13:12:47.439086341 -0500
+Change: 2026-11-17 13:12:47.439086341 -0500
+ Birth: 2026-11-17 13:12:47.283084768 -0500

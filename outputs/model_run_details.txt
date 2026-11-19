@@ -1,0 +1,6 @@
+Random seed: 42
+Model: TF-IDF word and character n-grams + Logistic Regression
+Training data: original dataset_train.jsonl (183 records)
+Test data: original dataset_test.jsonl (46 records)
+Vectorizer fitted on training data only.
+No external AI service or data upload used.

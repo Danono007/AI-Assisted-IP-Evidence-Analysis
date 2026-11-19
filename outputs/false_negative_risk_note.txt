@@ -1,0 +1,46 @@
+AI-ASSISTED FORENSIC EVALUATION
+FALSE-NEGATIVE RISK AND ANALYST ESCALATION
+Case ID: ICDFA-DFIR-AI-026
+
+1. OBSERVED TEST RESULT
+
+The Logistic Regression model produced zero false negatives
+in the 46-record test set. All 34 source-labelled positive
+records were classified as positive.
+
+This is an observed result on the supplied test data only.
+It does not establish that the model will achieve zero
+false negatives on unseen records.
+
+2. POTENTIAL FALSE-NEGATIVE CONSEQUENCE
+
+A false negative occurs when a source-labelled positive
+record is incorrectly classified as negative.
+
+In a forensic workflow, this could cause a potentially
+relevant IP evidence candidate to be overlooked, excluded
+from analyst review, or investigated later than necessary.
+
+3. RECOMMENDED CONTROL
+
+Automated classification must not be the sole basis for
+excluding a candidate from forensic examination.
+
+Preserve original source records and extraction context.
+Apply independent IPv4 syntax validation.
+Use analyst review for ambiguous or high-impact records.
+Escalate uncertain cases for further contextual examination.
+Record the reason for every analyst disposition.
+
+4. LIMITATION
+
+The supplied labels are teaching-dataset annotations.
+They do not establish that a candidate is routable,
+operational, malicious, or associated with an incident.
+
+CONCLUSION
+
+The model should be treated as an assistance mechanism,
+not an autonomous forensic decision-maker. Human review,
+evidence preservation, and transparent documentation
+remain necessary safeguards.
